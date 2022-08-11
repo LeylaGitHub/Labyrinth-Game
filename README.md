@@ -1,29 +1,33 @@
 # CGAProject
-Dies ist das Template-Projekt für die Abschlussprojekte im Modul "Computergrafik und Animation" an der TH Köln.
+In diesem Spiel wird eine Figur durch ein Labyrinth geführt, indem die Wände 
+per Knopfdruck verschoben werden bis sich ein Weg offenbart. Innerhalb des 
+Spiels kann das Spielfeld verändert werden, also ein anderer Level des
+Schieberätsels geladen werden. Die Stoppuhr gibt, nachdem der Level abgeschlossen
+wurde, an, wie lange der Spieler für das Lösen des Levels gebraucht hat.
 
-Bitte nutzen Sie dieses Template-Repository ("Use this template") und entwickeln Sie Ihr Abschlussprojekt mit dieser Vorlage. Denken Sie daran *fabianfriederichs*, *jm-th-koeln* und *oberberg* (Prof. Horst Stenzel) als Collaborators hinzuzufügen, damit wir darauf zugreifen können.
-
-Löschen Sie als erstes den Abschnitt CGAProjekt in dieser Datei und füllen Sie den Rest entsprechend aus für die Abgabe.
 
 # Projektname
-Fügen Sie ihren Projektnamen hinzu
+Labyrinth Spiel
 
 # Teammitglieder
-Listen Sie hier alle Teammitglieder auf.
-- Armin Anfang
-- Berta Beliebig
-- Carola Coautor
+- Jonas Notzon
+- Denis Felst Guinea
+- Leyla Issa
 
 # Featureliste
-Listen Sie hier alle relevanten Features als Liste mit sinnvoller Reihenfolge auf mit Angabe wer das Feature implementiert hat.
-Bei starker Ungleicheit der Features behalten wir uns eine individuelle Notenvergabe vor.
+- Wechsel zwischen 1st Person View und Top View ()
+- Knöpfe zum Verschieben der Wände ()
+- Kollisionserkennung ()
+- Verschiedene Level ()
+- Fackeln an den Wänden als Lichtquelle ()
+- Timer in einer Ecke des Screens ()
+- Skybox ()
 
-Bspw.
-
-- Verschiedene Kameramodelle (Wechsel zwischen orthographischer und perspektivischer Kamera mittels "c") (Berta)
-- Dynamische Kamera (Steuerung mittels Maus und "WASD" auf der Tastatur) (Carola und Armin)
-- Verschiedene Shaderprogramme (Wechsel mittels "s") (Carola)
-- ...
+# Steuerung
+- W,A,S,D: Bewegung der Figur
+- : Wechsel der Kameraperspektive
+- : Knopf betätigen
+- : Restart
 
 # Quellenverzeichnis
-Listen Sie hier ALLE Quellen der genutzten Ressourcen auf.
+--Listen Sie hier ALLE Quellen der genutzten Ressourcen auf.--
