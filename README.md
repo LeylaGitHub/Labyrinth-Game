@@ -5,7 +5,6 @@ Spiels kann das Spielfeld verändert werden, also ein anderer Level des
 Schieberätsels geladen werden. Die Stoppuhr gibt, nachdem der Level abgeschlossen
 wurde, an, wie lange der Spieler für das Lösen des Levels gebraucht hat.
 
-
 # Projektname
 Labyrinth Spiel
 

@@ -43,6 +43,19 @@ class Scene(private val window: GameWindow) {
 
     //scene setup
     init {
+        // Spielanleitung
+        println("\n")
+        println("############################ Steuerung #######################\n")
+        println("Drücke 'A' oder 'D' um die Figur nach links oder nach rechts zu bewegen")
+        println("Drücke 'W' oder 'S' um die Figur nach vorne oder nach hinten zu bewegen")
+        println("Drücke '' um eine Wand zu verschieben")
+        println("Drücke '' für einen Neustart")
+        println("\n")
+
+        println("########################### Ziel des Spiels #####################\n")
+        println("Finde einen Weg durch das Labyrinth")
+        println("########################### Start ###########################\n")
+
         staticShader = ShaderProgram("assets/shaders/tron_vert.glsl", "assets/shaders/tron_frag.glsl")
         //initial opengl state
         // color of scene
@@ -74,7 +87,7 @@ class Scene(private val window: GameWindow) {
 
         // LOAD AND SET EACH TEXTURE PARAM
         //params: wrapS: Int, wrapT: Int, minFilter: Int, magFilter: Int
-        diff = Texture2D.invoke("assets/textures/ground_diff.png", false)                       // Dateien für Bodentexturen ändern
+        diff = Texture2D.invoke("assets/textures/ground_diff.png", false)                       // Dateipfade für Bodentexturen ändern
         diff.setTexParams(GL12.GL_REPEAT, GL12.GL_REPEAT, GL12.GL_LINEAR, GL12.GL_LINEAR)
 
         emit = Texture2D.invoke("assets/textures/ground_emit.png", true)
